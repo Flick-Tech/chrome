@@ -14,7 +14,7 @@
           "type": "fargate",
           "cpu": 2,
           "memory": 4,
-          "domain": "chrome.dweet.com",
+          "domain": "chrome.flick.tech",
           "dockerfilePath": "Dockerfile",
           "dockerContext": ".",
           "port": 3000,
