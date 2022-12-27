@@ -12,8 +12,8 @@
           "id": "chromium",
           "name": "chromium",
           "type": "fargate",
-          "cpu": 8,
-          "memory": 32,
+          "cpu": 4,
+          "memory": 12,
           "domain": "chrome.flick.tech",
           "dockerfilePath": "Dockerfile",
           "dockerContext": ".",
@@ -22,8 +22,8 @@
           "minInstances": 1,
           "maxInstances": 1,
           "envVariables": {
-            "MAX_CONCURRENT_SESSIONS": "200",
-            "MAX_QUEUE_LENGTH": "200",
+            "MAX_CONCURRENT_SESSIONS": "50",
+            "MAX_QUEUE_LENGTH": "50",
             "CONNECTION_TIMEOUT": "600000",
             "TOKEN": "57009a2d-6242-4e7b-bc16-361e435aa15b"
           }
